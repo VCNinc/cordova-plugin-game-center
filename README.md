@@ -84,7 +84,7 @@ Fetches the user's achievements from the game center:
 ```
 var data = { };
 
-gamecenter.reportAchievement(successCallback, failureCallback, data);
+gamecenter.getAchievements(successCallback, failureCallback, data);
 
 var successCallback = function(result) {
 	if (results) {
